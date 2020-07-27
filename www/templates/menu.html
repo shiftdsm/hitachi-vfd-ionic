@@ -1,0 +1,28 @@
+<ion-header-bar align-title="center" class="bar bar-header bar-assertive">
+    <ion-button side="left">
+      <a href="#/tab/catalog"><i class="button button-icon ion-ios-home"></i></a>
+    </ion-button>
+    <h1 class="title"><strong>Hitachi VFD</strong></h1>
+</ion-header-bar>
+<!-- BOTTOM NAV TABS -->
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+  <!-- Catalog Tab -->
+  <ion-tab title="Find VFD" icon-off="ion-funnel" icon-on="ion-funnel" href="#">
+    <ion-nav-view name="tab-catalog"></ion-nav-view>
+  </ion-tab>
+  <!-- Guides Tab -->
+  <ion-tab title="Guides" icon-off="ion-ios-book-outline" icon-on="ion-ios-book-outline" href="#/tab/guides">
+    <ion-nav-view name="tab-guides"></ion-nav-view>
+  </ion-tab>
+  <!-- Registration Tab -->
+  <ion-tab title="Registration" icon-on="ion-registration" icon-off="ion-registration" ng-click="onRegistration()">
+  </ion-tab>
+  <!-- FAQs Tab -->
+  <ion-tab title="FAQ" icon-off="ion-ios-help-outline" icon-on="ion-ios-help-outline" href="#/tab/FAQs">
+    <ion-nav-view name="tab-FAQs"></ion-nav-view>
+  </ion-tab>
+  <!-- Videos Tab -->
+  <ion-tab title="Videos" icon-off="ion-ios-videocam-outline" icon-on="ion-ios-videocam-outline" href="#/tab/videos">
+    <ion-nav-view name="tab-videos"></ion-nav-view>
+  </ion-tab>
+</ion-tabs>

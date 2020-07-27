@@ -1,0 +1,43 @@
+<ion-header-bar class="bar-positive">
+    <h1 class="title">FAQ List</h1>
+</ion-header-bar>
+<div class="bar bar-subheader">
+    <h2 class="title">FAQs</h2>
+</div>
+<ion-content class="has-subheader">
+    <ul class="list" >
+        <li class="item" ng-repeat="line in data" >
+            <h2 class="question-text" ng-click="toggleHeader(line)">{{ line.header }}</h2>
+            <ion-list ng-class="isHeadShown(line) ? 'head-expand' : 'head-expand-inactive'">
+                <ion-item ng-repeat="item in line.items" class="item item-text-wrap">
+                    <div ng-class="isItemShown(item) ? 'item-expand active' : 'item-expand inactive'">
+                        <h2 class="question-text">{{ item.title }}</h2>
+                        <p class="answer-text">{{ item.text }}</p>
+                    </div>
+                    <div ng-click="toggleItem(item)" class="item-expand-footer">
+                        <i ng-class="isItemShown(item) ? 'ion-arrow-up-b' : 'ion-arrow-down-b'"></i>
+                    </div>
+                </ion-item>
+            </ion-list>
+            <div class="item-expand-footer" ng-click="toggleHeader(line)">
+                <i ng-class="isHeadShown(line) ? 'ion-arrow-up-b' : 'ion-arrow-down-b'"></i>
+            </div>
+        </li>
+    </ion-list>
+
+    <div class="list">
+        <div class="item item-divider">
+          Still need help?
+        </div>
+        <div class="support-items">
+            <a class="item item-icon-right" href="mailto:inverterinfo@hal.hitachi.com" target="_blank">
+                <i class="icon ion-ios-email-outline"></i>
+                Email: inverterinfo@hal.hitachi.com
+            </a>
+            <a class="item item-icon-right" href="tel:+1-980-500-7141" target="_blank">
+                <i class="icon ion-ios-telephone-outline"></i>
+                Phone: +1-980-500-7141
+            </a>
+        </div>
+    </div>
+</ion-content>

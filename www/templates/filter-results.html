@@ -1,0 +1,60 @@
+<ion-nav-view name="tab-catalog">
+	<ion-content class="has-header">
+		<ion-list>
+		<div ng-show="!products.length">
+			<div class="card">
+				<div class="item item-divider">Sorry, no matching results. Try again!</div>
+			</div>
+		</div>
+		<div ng-repeat="product in products | filter:query">
+			<h1 class="item item-divider filter-rslts"><strong>{{product.model}}</strong></h1>
+			<br>
+			
+			<div class="row row-center">
+				<img class="col col-33 col-top product-image" ng-src="{{product.imageURL}}">
+				<table class="col-offset-10" border="none" height="75">
+					<tr>
+						<td colspan="2" class="inverter-phase-name">{{product.phasedisplay}}</td>
+					</tr>
+					<tr>
+						<td class="inverter-spec-name">Hp</td>
+						<td class="inverter-specs">{{product.hpdisplay}}</td>
+					</tr>
+					<tr>
+						<td class="inverter-spec-name">Kw</td>
+						<td class="inverter-specs">{{product.kw}}</td>
+					</tr>
+					<tr>
+						<td class="inverter-spec-name">Volts</td>
+						<td class="inverter-specs">{{product.volts}}</td>
+					</tr>
+					<tr>
+						<td class="inverter-spec-name">Amps</td>
+						<td class="inverter-specs">{{product.amp}}</td>
+					</tr>
+				</table>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col">
+					<a class="button button-block button-assertive webstore" href="{{product.url}}" onclick="window.open(this.href, '_system', 'location=yes'); return false;"><strong>Webstore</strong></a>
+				</div>
+				<div class="col">
+					<button class="button button-block button-outline button-assertive features-btn" ng-model="collapsed" ng-click="collapsed=!collapsed"><strong>Features</strong></button>
+				</div>
+			</div>
+			<br>
+			<div ng-show="collapsed" class="features col col-90">
+				<div ng-repeat="feature in product.features">
+					<li class="item-text-wrap">{{feature}}</li>
+				</div>
+			</div>
+		</ion-list>
+	</ion-content>
+</ion-nav-view>
+<!--
+This template loads for the 'tab.catalog-detail' state (app.js)
+'catalog' is a $scope variable created in the CatalogCtrl controller (controllers.js)
+The CatalogCtrl pulls data from the Catalog service (service.js)
+The Catalog service returns an array of catalog data
+-->

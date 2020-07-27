@@ -1,0 +1,73 @@
+<ion-nav-view name="tab-catalog">
+  <div class='bar bar-subheader'>
+        <h2 class="title">Find VFD</h2>
+  </div>
+    <ion-content class="has-header has-subheader" scrollbar-y="false"> 
+        <div class="row remove-padding">
+          <ion-radio type="radio" id="filter-button" class="col remove-padding" ng-model="formObject.phase" ng-value="1">Single Phase</ion-radio>
+          <ion-radio type="radio" id="filter-button" class="col remove-padding" ng-model="formObject.phase" ng-value="3">Three Phase</ion-radio>
+        </div>
+<!--       HORSEPOWER!        --> 
+
+        <label id="hpbutton" class="item item-input item-select filter">
+          <div class="input-label">
+            Horsepower
+          </div>
+            <select ng-model="formObject.hp">
+              <option value="0.125">1/8</option>
+              <option value="0.25">1/4</option>
+              <option value="0.5">1/2</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option value="7.5">7 1/2</option>
+              <option>10</option>
+              <option>15</option>
+              <option>20</option>
+              <option>25</option>
+              <option>30</option>
+              <option>40</option>
+              <option>50</option>
+              <option>60</option>
+              <option>75</option>
+              <option>100</option>
+              <option>125</option>
+              <option>150</option>
+              <option value="200">200</option>
+            </select> 
+        </label>
+
+<!--         VOLTAGE       -->
+
+        <label class="item item-input item-select filter">
+        <div class="input-label">
+          Voltage
+        </div>
+          <select ng-model="formObject.volts">
+            <option value="100">100-120</option>
+            <option value="200">200-240</option>
+            <option value="400">380-480</option>
+          </select> 
+        </label>
+
+        <div class="row  remove-padding">
+            <div id="ck-button">
+              <label class="col remove-padding">
+                <input type="checkbox" name="easysq" ng-value="true" ng-model="formObject.easysq"><span>Easy Sequence</span>
+              </label>
+            </div>
+          </div>
+      
+<!--         BUTTONS, homie       -->
+
+      <div id="filter-buttons">
+        <div class="row">
+          <button class="button button-block button-assertive col filter-btn" value="Filter" ng-click="submitSearch(formObject)" menu-close>FIND</button>
+          <button class="button button-block button-stable col reset-btn" ng-click="reset()" value="Reset">RESET</button>
+        
+      </div>
+    </div>
+  </ion-content> 
+</ion-view>
