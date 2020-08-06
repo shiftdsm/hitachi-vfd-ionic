@@ -1,0 +1,23 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "catalog-app-3",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {
+    "preferences": {
+      "webviewbounce": "false",
+      "UIWebViewBounce": "false",
+      "DisallowOverscroll": "true",
+      "android-minSdkVersion": "16",
+      "BackupWebStorage": "none",
+      "SplashScreen": "screen",
+      "SplashScreenDelay": "3000",
+    }
+  }
+}

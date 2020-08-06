@@ -1,4 +1,9 @@
 {
   "name": "catalog-app-3",
-  "app_id": "cb345189"
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "cb345189"
 }

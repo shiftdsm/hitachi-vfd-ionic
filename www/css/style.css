@@ -1,12 +1,17 @@
 /* Empty. Add your own CSS if you like */
 body {
-  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+  cursor: url("http://ionicframework.com/img/finger.png"), auto;
 }
 
-h1, h2, h3, h4, h5, h6, p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   font-family: "Helvetica";
 }
-
 
 /*.ion-my-icon-house:before {
   content: url('../img/house.png') !important; 
@@ -26,55 +31,55 @@ h1, h2, h3, h4, h5, h6, p{
   text-align: center;
 }*/
 
-.catalog-series p{
+.catalog-series p {
   text-align: center;
   color: #000;
   font-size: 14pt;
   padding-top: 35px;
 }
 
-.item h3{
+.item h3 {
   font-size: 16px;
   color: #000;
   text-align: left;
   padding-left: 25px;
-  padding-top:40px;
+  padding-top: 40px;
   margin-top: -10px;
   font-weight: normal;
 }
 
 /* Filter view */
-li.item.item-toggle.filter{
+li.item.item-toggle.filter {
   padding: 25px;
   text-align: left;
   font-weight: bold;
 }
 
-label.item.item-input.item-select.filter{
+label.item.item-input.item-select.filter {
   padding: 25px;
   padding-left: 25px;
   font-weight: bold;
   text-align: left;
 }
 
-label.item.item-input.item-select.filter::after{
+label.item.item-input.item-select.filter::after {
   margin-top: -45px;
   border-top: 10px solid;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
 }
 
-label.item.item-input.item-select.filter-hp::after{
+label.item.item-input.item-select.filter-hp::after {
   margin-top: -45px;
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
 }
 
 div label input {
-   margin-right:100px;
+  margin-right: 100px;
 }
 body {
-    font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 #filter-button {
@@ -86,47 +91,51 @@ body {
 }
 
 #ck-button {
-    background-color:#FFF;
-    border-right: 1px solid #DDD;
-    border-bottom: 1px solid #DDD;
-    width: 100%;
-    text-align: left;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: left;
 }
 
 #ck-button label span {
-    text-align: left;
-    font-weight: bold;
-    color: #444;
-    font-size: 12pt;
-    padding: 25px;
-    display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  color: #444;
+  font-size: 12pt;
+  padding: 25px;
+  display: inline-block;
 }
 
 #ck-button label input {
-    position:absolute;
-    top:-20px;
+  position: absolute;
+  top: -20px;
 }
 
 #ck-button input:checked + span {
-    background-color:#27AE60;
-    color:#fff;
-    width: 100%;
+  background-color: #27ae60;
+  color: #fff;
+  width: 100%;
 }
 
 /*Filtered results*/
 
-img.col.col-33.col-top.product-image{
+img.col.col-33.col-top.product-image {
   padding-left: 25px;
 }
 
-td.inverter-specs.ng-binding{
+td.inverter-specs {
+  padding-left: 8px;
+}
+
+td.inverter-specs.ng-binding {
   font-weight: bold;
   font-size: 16pt;
   color: black;
   text-align: left;
 }
 
-td.inverter-spec-name{
+td.inverter-spec-name {
   font-weight: bold;
   font-size: 16pt;
   color: #737373;
@@ -134,7 +143,7 @@ td.inverter-spec-name{
   padding-top: 5px;
 }
 
-td.inverter-phase-name{
+td.inverter-phase-name {
   font-weight: bold;
   font-size: 14pt;
   color: black;
@@ -149,12 +158,12 @@ td.inverter-phase-name{
   font-weight: bold;
 } */
 
-.item-radio .radio-icon{
-  color:#27AE60;
+.item-radio .radio-icon {
+  color: #27ae60;
 }
 
-.item-radio input:checked + .radio-content .item-content{
-  background: #27AE60;
+.item-radio input:checked + .radio-content .item-content {
+  background: #27ae60;
   color: white;
 }
 /* 
@@ -168,46 +177,45 @@ label.item.item-radio.ng-pristine.ng-untouched.ng-valid{
 
 /* CATALOG BROWSE */
 
-.model-title{
-  padding-right: 2em;
-  color: #666;
-  
-}
-
-.sj700d-title{
+.model-title {
   padding-right: 2em;
   color: #666;
 }
 
-.wj200-title{
+.sj700d-title {
   padding-right: 2em;
   color: #666;
 }
 
-.features-box.item{
+.wj200-title {
+  padding-right: 2em;
+  color: #666;
+}
+
+.features-box.item {
   padding: 20px;
   color: #666;
   margin-top: -20px;
   margin-bottom: 5px;
 }
 
-.webstore-box.item{
+.webstore-box.item {
   padding: 20px;
-  color: #FF0026;
+  color: #ff0026;
 }
 
-a.button.button-block.button-assertive.webstore{
+a.button.button-block.button-assertive.webstore {
   /*margin-top: -45px;
   margin-left: 25px;
   margin-bottom: 10px;*/
 }
 
-button.button.button-full.button-outline.button-assertive.features-btn{
+button.button.button-full.button-outline.button-assertive.features-btn {
   text-align: center;
   margin-bottom: 10px;
 }
 
-.features{
+.features {
   text-align: left;
   list-style-type: disc;
   list-style-position: inside;
@@ -223,58 +231,56 @@ h2.hp-amp {
 }
 
 /* Filtered results title dividers */
-h1.item.item-divider.filter-rslts{
+h1.item.item-divider.filter-rslts {
   background-color: #737373;
   color: #fff;
 }
 
- /*FILTER TITLE*/
+/*FILTER TITLE*/
 
-.bar-stable .filter-title{
+.bar-stable .filter-title {
   text-align: left;
   padding-left: 6px;
 }
 
 /*FILTER INPUT BOXES*/
-.input-box{
+.input-box {
   border: solid;
   border-width: 1px;
   border-color: #b2b2b2;
   margin-bottom: 5px;
 }
 
-.top-row .item-checkbox{
+.top-row .item-checkbox {
   padding-left: 50px;
   margin-left: 15px;
 }
 
-
- /*FILTER MENU BUTTONS*/
+/*FILTER MENU BUTTONS*/
 .remove-padding {
   padding: 0%;
 }
 
-#filter-buttons{
+#filter-buttons {
   padding: 10px;
 }
 
-button.button.button-block.button-stable.col.reset-btn{
-  margin-left:10px;
+button.button.button-block.button-stable.col.reset-btn {
+  margin-left: 10px;
   border-color: #666;
 }
 
-button.button.button-block.button-stable.col.reset-btn.activated{
+button.button.button-block.button-stable.col.reset-btn.activated {
   background-color: gray;
-  color:white;
+  color: white;
 }
 
-
-.responsive-sm{
+.responsive-sm {
   text-align: left;
   color: #666;
 }
 
-.responsive-md{
+.responsive-md {
   text-align: left;
   color: #666;
 }
@@ -303,18 +309,17 @@ button.button.button-block.button-stable.col.reset-btn.activated{
   transition: max-height 0.3s ease-out;
 }
 
-.answer-text{
+.answer-text {
   text-align: left;
   padding-left: 25px;
 }
 
 .head-expand-inactive {
-  display:none;
+  display: none;
 }
 
-
 /* FAQ additional support at bottom */
-.support-items .item{
+.support-items .item {
   padding: 20px;
   text-align: left;
 }
@@ -335,25 +340,25 @@ button.button.button-block.button-stable.col.reset-btn.activated{
   text-align:right !important;
 }*/
 *::-webkit-media-controls-start-playback-button {
-    display: none !important;
-    -webkit-appearance: none;
+  display: none !important;
+  -webkit-appearance: none;
 }
 
 .video-container {
-    position: relative;
-    /*padding-bottom: 30%;*/
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  /*padding-bottom: 30%;*/
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 .video-container video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .videogular-container {
@@ -362,21 +367,21 @@ button.button.button-block.button-stable.col.reset-btn.activated{
   margin: auto;
   overflow: hidden;
 }
- 
+
 @media (min-width: 1200px) {
   .videogular-container {
     width: 1170px;
     height: 658.125px;
   }
 }
- 
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .videogular-container {
     width: 940px;
     height: 528.75px;
   }
 }
- 
+
 @media (min-width: 768px) and (max-width: 991px) {
   .videogular-container {
     width: 728px;
@@ -384,10 +389,10 @@ button.button.button-block.button-stable.col.reset-btn.activated{
   }
 }
 
-.ion-registration:before{
+.ion-registration:before {
   content: “”;
 }
-.ion-registration{
+.ion-registration {
   background-size: 100% 100%;
   background-image: url("../img/registration_icon.png") !important;
   width: 1em;
