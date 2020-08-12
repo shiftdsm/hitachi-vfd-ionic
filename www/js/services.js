@@ -803,7 +803,7 @@ angular.module('starter.services', [])
         phase: 3,
         phasedisplay: 'Three Phase',
         emcfilter: true,
-        easysq: true,
+        easysq: true, 
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00044-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
         }, {
@@ -865,7 +865,7 @@ angular.module('starter.services', [])
         kw: 3.7,
         hp: 5,
         hpdisplay: '5',
-        amp: 16.5,
+        amp: 17.5,
         ampVt: 19.6,
         volts: 200,
         phase: 3,
