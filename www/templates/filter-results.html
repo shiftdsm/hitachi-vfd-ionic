@@ -30,12 +30,17 @@
 					</tr>
 					<tr>
 						<td class="inverter-spec-name">Amps</td>
-						<td class="inverter-specs">{{product.amp}} CT</td>
+						<td class="inverter-specs">{{product.amp}} {{firstUnitAmps(product)}}</td>
 					</tr>
-					<tr>
+					<tr ng-show="{{product.ampVt!=null}}">
 						<td class="inverter-spec-name"></td>
-						<td class="inverter-specs">{{product.ampVt}} {{product.ampVt != null ? 'VT' : ''}}</td>
+						<td class="inverter-specs">{{product.ampVt}} {{secondUnitAmps(product)}}</td>
 					</tr>
+					<tr ng-show="{{product.ampVLD!=null}}">
+						<td class="inverter-spec-name"></td>
+						<td class="inverter-specs">{{product.ampVLD}} VLD</td>
+					</tr>
+					
 				</table>
 			</div>
 			<br>

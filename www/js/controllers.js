@@ -61,6 +61,28 @@ angular.module('starter.controllers', ['ionic'])
     }
   }
 
+  $scope.firstUnitAmps = (value) => {
+    if (value.model.includes('P1')){
+      return 'ND';
+    }
+
+    if (value.model.includes('WJ')){
+      return 'CT';
+    }
+    return '';
+  }
+
+  $scope.secondUnitAmps = (value) => {
+    if (value.model.includes('P1')){
+      return 'LD';
+    }
+
+    if (value.model.includes('WJ')){
+      return 'VT';
+    }
+    return '';
+  }
+
   $scope.$watch(
       function() {
         // console.log('watching');
