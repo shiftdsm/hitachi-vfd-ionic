@@ -42,7 +42,6 @@ angular.module('starter.controllers', ['ionic'])
   $scope.submitSearch = function(form){
     var filteredProducts = Catalog.filter(form)
     Catalog.filteredProducts = filteredProducts
-    console.log(window.localStorage.updateDisplay);
     window.localStorage.updateDisplay = 1;
     $location.path("/tab/filterResults")
   }

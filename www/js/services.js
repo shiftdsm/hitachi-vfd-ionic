@@ -1,18 +1,18 @@
 angular.module('starter.services', [])
 
-.factory('Catalog', function() {
-  // Might use a resource here that returns a JSON array
+  .factory('Catalog', function () {
+    // Might use a resource here that returns a JSON array
 
-  // Inverter data
-  var catalog = [{
+    // Inverter data
+    var catalog = [{
 
-    ///////////////////////////
-    //NE-S1 Series 
-    //////////////////////////
-    ///////////////////////////
-    //NE-S1 1-PHASE 200V CLASS
-    //////////////////////////
-    
+        ///////////////////////////
+        //NE-S1 Series 
+        //////////////////////////
+        ///////////////////////////
+        //NE-S1 1-PHASE 200V CLASS
+        //////////////////////////
+
         id: 1,
         series: 'NE-S1',
         model: 'NES1-004SB',
@@ -30,7 +30,7 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-004SB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-      },  {
+      }, {
         id: 2,
         series: 'NE-S1',
         model: 'NES1-007SB',
@@ -48,7 +48,7 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-007SB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-      },  {
+      }, {
         id: 3,
         series: 'NE-S1',
         model: 'NES1-015SB',
@@ -84,12 +84,12 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-022SB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-      }, 
-    
-    ///////////////////////////
-    //NE-S1 3-PHASE 200V CLASS
-    //////////////////////////
-    
+      },
+
+      ///////////////////////////
+      //NE-S1 3-PHASE 200V CLASS
+      //////////////////////////
+
       {
         id: 5,
         series: 'NE-S1',
@@ -144,7 +144,7 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-007LB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-        }, {
+      }, {
         id: 8,
         series: 'NE-S1',
         model: 'NES1-015LB',
@@ -162,7 +162,7 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-015LB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-        }, {
+      }, {
         id: 9,
         series: 'NE-S1',
         model: 'NES1-022LB',
@@ -180,13 +180,13 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-022LB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-        }, 
-    
-    ///////////////////////////
-    //NE-S1 3-PHASE 400V CLASS
-    //////////////////////////
-    
-        {
+      },
+
+      ///////////////////////////
+      //NE-S1 3-PHASE 400V CLASS
+      //////////////////////////
+
+      {
         id: 10,
         series: 'NE-S1',
         model: 'NES1-004HB',
@@ -204,7 +204,7 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-004HB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-        }, {
+      }, {
         id: 11,
         series: 'NE-S1',
         model: 'NES1-007HB',
@@ -222,7 +222,7 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-007HB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-        }, {
+      }, {
         id: 12,
         series: 'NE-S1',
         model: 'NES1-015HB',
@@ -240,7 +240,7 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-015HB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-        }, {
+      }, {
         id: 13,
         series: 'NE-S1',
         model: 'NES1-022HB',
@@ -258,7 +258,7 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-022HB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-        }, {
+      }, {
         id: 14,
         series: 'NE-S1',
         model: 'NES1-040HB',
@@ -276,16 +276,16 @@ angular.module('starter.services', [])
         easysq: false,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=NES1-040HB',
         features: ['Preconfigured for out of the box use', 'Remote keypad with built in potentiometer', 'ProDriveNext PC based configuration software- optional', 'Economical and Simple to use', 'Ultra compact design', '3 wire Start Stop compatible', 'Logic and time delay functions built in', 'Sink or Source input compatible', 'RS-485 Modbus RTU built in', 'CE/UL/cUL/c-Tick approvals', 'Energy Saving function built in', 'EMC Filter']
-        },
-    
-    ///////////////////////////////////////
-    //BEGIN WJ200 SERIES! OMG!
-    //////////////////////////////////////
-    ///////////////////////////
-    //WJ200 1-PHASE 100V CLASS
-    //////////////////////////
-    
-        {
+      },
+
+      ///////////////////////////////////////
+      //BEGIN WJ200 SERIES! OMG!
+      //////////////////////////////////////
+      ///////////////////////////
+      //WJ200 1-PHASE 100V CLASS
+      //////////////////////////
+
+      {
         id: 15,
         series: 'WJ200',
         model: 'WJ200-004MF',
@@ -303,7 +303,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-004MF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 16,
         series: 'WJ200',
         model: 'WJ200-007MF',
@@ -321,13 +321,13 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-007MF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, 
-    
-    ///////////////////////////
-    //WJ200 1-PHASE 200V CLASS
-    //////////////////////////
-    
-        {
+      },
+
+      ///////////////////////////
+      //WJ200 1-PHASE 200V CLASS
+      //////////////////////////
+
+      {
         id: 17,
         series: 'WJ200',
         model: 'WJ200-001SF',
@@ -345,7 +345,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-001SF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 18,
         series: 'WJ200',
         model: 'WJ200-002SF',
@@ -363,7 +363,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-002SF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 19,
         series: 'WJ200',
         model: 'WJ200-004SF',
@@ -381,7 +381,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-004SF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 20,
         series: 'WJ200',
         model: 'WJ200-007SF',
@@ -399,7 +399,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-007SF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 21,
         series: 'WJ200',
         model: 'WJ200-015SF',
@@ -417,7 +417,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-015SF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 22,
         series: 'WJ200',
         model: 'WJ200-022SF',
@@ -435,13 +435,13 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-022SF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, 
-    
-    ///////////////////////////
-    //WJ200 3-PHASE 200V CLASS
-    //////////////////////////
-    
-        {
+      },
+
+      ///////////////////////////
+      //WJ200 3-PHASE 200V CLASS
+      //////////////////////////
+
+      {
         id: 23,
         series: 'WJ200',
         model: 'WJ200-001LF',
@@ -458,7 +458,7 @@ angular.module('starter.services', [])
         emcfilter: true,
         easysq: true,
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 24,
         series: 'WJ200',
         model: 'WJ200-002LF',
@@ -476,7 +476,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-002LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 25,
         series: 'WJ200',
         model: 'WJ200-004LF',
@@ -494,7 +494,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-004LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 26,
         series: 'WJ200',
         model: 'WJ200-007LF',
@@ -512,7 +512,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-007LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 27,
         series: 'WJ200',
         model: 'WJ200-015LF',
@@ -530,7 +530,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-015LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 28,
         series: 'WJ200',
         model: 'WJ200-022LF',
@@ -548,7 +548,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-022LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 29,
         series: 'WJ200',
         model: 'WJ200-037LF',
@@ -566,7 +566,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-037LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 30,
         series: 'WJ200',
         model: 'WJ200-055LF',
@@ -584,7 +584,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-055LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 31,
         series: 'WJ200',
         model: 'WJ200-075LF',
@@ -602,7 +602,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-075LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 32,
         series: 'WJ200',
         model: 'WJ200-110LF',
@@ -620,7 +620,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-110LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 33,
         series: 'WJ200',
         model: 'WJ200-150LF',
@@ -638,13 +638,13 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-150LF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, 
-    
-    ///////////////////////////
-    //WJ200 3-PHASE 400V CLASS
-    //////////////////////////
-    
-        {
+      },
+
+      ///////////////////////////
+      //WJ200 3-PHASE 400V CLASS
+      //////////////////////////
+
+      {
         id: 34,
         series: 'WJ200',
         model: 'WJ200-004HF',
@@ -662,7 +662,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-004HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 35,
         series: 'WJ200',
         model: 'WJ200-007HF',
@@ -680,7 +680,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-007HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 36,
         series: 'WJ200',
         model: 'WJ200-015HF',
@@ -698,7 +698,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-015HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 37,
         series: 'WJ200',
         model: 'WJ200-022HF',
@@ -716,7 +716,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-022HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 38,
         series: 'WJ200',
         model: 'WJ200-030HF',
@@ -734,7 +734,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-030HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 39,
         series: 'WJ200',
         model: 'WJ200-040HF',
@@ -752,7 +752,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-040HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 40,
         series: 'WJ200',
         model: 'WJ200-055HF',
@@ -770,7 +770,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-055HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 41,
         series: 'WJ200',
         model: 'WJ200-075HF',
@@ -788,7 +788,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-075HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 42,
         series: 'WJ200',
         model: 'WJ200-110HF',
@@ -806,7 +806,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-110HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-        }, {
+      }, {
         id: 43,
         series: 'WJ200',
         model: 'WJ200-150HF',
@@ -824,15 +824,210 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=WJ200-150HF',
         features: ['High starting torque and dramatically improved speed stability thanks to advanced sensorless vector control', 'Simplified autotuning procedure', 'Easy setup and operation via standard integral keypad, optional enhanced keypad or via PC software', 'Dynamic braking transistor in all models', 'EasySequence (EzSQ) PLC-like functionality built in', 'Simple position control capability', 'Capable of driving permanent magnet as well as standard induction motors', 'Dual rated for CT/VT applications', 'EMC Filter', 'New and more effective trip avoidance functions, safe-stop function and much more']
-    
-    ///////////////////////////////////////
-    //NOW TIME FOR THE SJ-P1 SERIES! OMG!
-    //////////////////////////////////////
-    ///////////////////////////
-    //SJ-P1 3-PHASE 200V CLASS
-    //////////////////////////
-    
-        }, {
+      },
+      ///////////////////////////////////////
+      //NOW TIME FOR THE SJ-P1 SERIES! OMG!
+      //////////////////////////////////////
+
+      ///////////////////////////
+      //SJ-P1 3-PHASE 200V CLASS
+      //////////////////////////
+
+      {
+        id: 140,
+        series: 'SJ-P1',
+        model: 'P1-00330-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 3,
+        hpdisplay: '3',
+        amp: 12,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00330-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 141,
+        series: 'SJ-P1',
+        model: 'P1-00460-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 5,
+        hpdisplay: '5',
+        amp: 15.5,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00460-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 142,
+        series: 'SJ-P1',
+        model: 'P1-00600-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 7.5,
+        hpdisplay: '7.5',
+        amp: 22,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00600-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 143,
+        series: 'SJ-P1',
+        model: 'P1-00800-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 10,
+        hpdisplay: '10',
+        amp: 31,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00800-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 144,
+        series: 'SJ-P1',
+        model: 'P1-00930-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 15,
+        hpdisplay: '15',
+        amp: 36.5,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00930-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 145,
+        series: 'SJ-P1',
+        model: 'P1-01240-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 20,
+        hpdisplay: '20',
+        amp: 46,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01240-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 146,
+        series: 'SJ-P1',
+        model: 'P1-01530-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 25,
+        hpdisplay: '25',
+        amp: 60,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01530-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 147,
+        series: 'SJ-P1',
+        model: 'P1-01850-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 30,
+        hpdisplay: '30',
+        amp: 70,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01850-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 148,
+        series: 'SJ-P1',
+        model: 'P1-02290-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 60,
+        hpdisplay: '60',
+        amp: 88,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-02290-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 149,
+        series: 'SJ-P1',
+        model: 'P1-02950-LFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.4,
+        hp: 75,
+        hpdisplay: '75',
+        amp: 105,
+        ampVt: null,
+        ampVLD: null,
+        volts: 200,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-02950-LFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+
+      ///////////////////////////
+      //SJ-P1 3-PHASE 200V CLASS
+      //////////////////////////
+      {
         id: 44,
         series: 'SJ-P1',
         model: 'P1-00044-LFUF',
@@ -847,10 +1042,10 @@ angular.module('starter.services', [])
         phase: 3,
         phasedisplay: 'Three Phase',
         emcfilter: true,
-        easysq: true, 
+        easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00044-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 45,
         series: 'SJ-P1',
         model: 'P1-00080-LFUF',
@@ -868,7 +1063,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00080-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 46,
         series: 'SJ-P1',
         model: 'P1-00104-LFUF',
@@ -886,7 +1081,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00104-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 47,
         series: 'SJ-P1',
         model: 'P1-00156-LFUF',
@@ -904,7 +1099,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00156-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 48,
         series: 'SJ-P1',
         model: 'P1-00228-LFUF',
@@ -922,7 +1117,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00228-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 49,
         series: 'SJ-P1',
         model: 'P1-00330-LFUF',
@@ -940,7 +1135,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00330-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 50,
         series: 'SJ-P1',
         model: 'P1-00460-LFUF',
@@ -958,7 +1153,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00460-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 51,
         series: 'SJ-P1',
         model: 'P1-00600-LFUF',
@@ -976,7 +1171,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00600-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 52,
         series: 'SJ-P1',
         model: 'P1-00800-LFUF',
@@ -994,7 +1189,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00800-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 53,
         series: 'SJ-P1',
         model: 'P1-00930-LFUF',
@@ -1012,7 +1207,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00930-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 54,
         series: 'SJ-P1',
         model: 'P1-01240-LFUF',
@@ -1030,7 +1225,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01240-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 55,
         series: 'SJ-P1',
         model: 'P1-01530-LFUF',
@@ -1048,7 +1243,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01530-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 56,
         series: 'SJ-P1',
         model: 'P1-01850-LFUF',
@@ -1066,7 +1261,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01850-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 57,
         series: 'SJ-P1',
         model: 'P1-02290-LFUF',
@@ -1084,7 +1279,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-02290-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 58,
         series: 'SJ-P1',
         model: 'P1-02950-LFUF',
@@ -1102,13 +1297,207 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-02950-LFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        },
-    
-    ///////////////////////////
-    //SJ-P1 3-PHASE 400V CLASS
-    //////////////////////////
-    
-        {
+      },
+
+      ///////////////////////////
+      //SJ-P1 1-PHASE 400V CLASS
+      //////////////////////////
+      {
+        id: 101,
+        series: 'SJ-P1',
+        model: 'P1-00175-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 3,
+        hpdisplay: '3',
+        amp: 6,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00175-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 102,
+        series: 'SJ-P1',
+        model: 'P1-00250-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 5,
+        hpdisplay: '5',
+        amp: 8,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00250-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 103,
+        series: 'SJ-P1',
+        model: 'P1-00310-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 5.5,
+        hpdisplay: '5.5',
+        amp: 12,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00310-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 104,
+        series: 'SJ-P1',
+        model: 'P1-00400-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 7.5,
+        hpdisplay: '7.5',
+        amp: 16,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00310-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 105,
+        series: 'SJ-P1',
+        model: 'P1-00470-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 10,
+        hpdisplay: '10',
+        amp: 19,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00470-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 106,
+        series: 'SJ-P1',
+        model: 'P1-00620-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 15,
+        hpdisplay: '15',
+        amp: 24,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00620-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 107,
+        series: 'SJ-P1',
+        model: 'P1-00770-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 20,
+        hpdisplay: '20',
+        amp: 30,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00770-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 108,
+        series: 'SJ-P1',
+        model: 'P1-00930-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 30,
+        hpdisplay: '30',
+        amp: 37,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00930-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 109,
+        series: 'SJ-P1',
+        model: 'P1-01160-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 40,
+        hpdisplay: '40',
+        amp: 45,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01160-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+      {
+        id: 110,
+        series: 'SJ-P1',
+        model: 'P1-01470-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 0.75,
+        hp: 50,
+        hpdisplay: '50',
+        amp: 56,
+        ampVt: null,
+        ampVLD: null,
+        volts: 400,
+        phase: 1,
+        phasedisplay: 'Single Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01470-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      },
+
+      ///////////////////////////
+      //SJ-P1 3-PHASE 400V CLASS
+      //////////////////////////
+
+      {
         id: 59,
         series: 'SJ-P1',
         model: 'P1-00041-HFUF',
@@ -1126,7 +1515,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00041-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 60,
         series: 'SJ-P1',
         model: 'P1-00054-HFUF',
@@ -1144,7 +1533,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00054-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 61,
         series: 'SJ-P1',
         model: 'P1-00083-HFUF',
@@ -1162,7 +1551,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00083-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 62,
         series: 'SJ-P1',
         model: 'P1-00126-HFUF',
@@ -1180,7 +1569,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00126-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 63,
         series: 'SJ-P1',
         model: 'P1-00175-HFUF',
@@ -1198,7 +1587,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00175-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 64,
         series: 'SJ-P1',
         model: 'P1-00250-HFUF',
@@ -1216,7 +1605,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00250-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 65,
         series: 'SJ-P1',
         model: 'P1-00310-HFUF',
@@ -1234,7 +1623,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00310-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 66,
         series: 'SJ-P1',
         model: 'P1-00400-HFUF',
@@ -1252,7 +1641,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00400-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 67,
         series: 'SJ-P1',
         model: 'P1-00470-HFUF',
@@ -1270,7 +1659,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00470-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 68,
         series: 'SJ-P1',
         model: 'P1-00620-HFUF',
@@ -1288,7 +1677,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00620-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 69,
         series: 'SJ-P1',
         model: 'P1-00770-HFUF',
@@ -1306,7 +1695,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00770-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 70,
         series: 'SJ-P1',
         model: 'P1-00930-HFUF',
@@ -1324,7 +1713,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-00930-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 71,
         series: 'SJ-P1',
         model: 'P1-01160-HFUF',
@@ -1342,7 +1731,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01160-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 72,
         series: 'SJ-P1',
         model: 'P1-01470-HFUF',
@@ -1360,7 +1749,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01470-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 73,
         series: 'SJ-P1',
         model: 'P1-01760-HFUF',
@@ -1378,7 +1767,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-01760-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 74,
         series: 'SJ-P1',
         model: 'P1-02130-HFUF',
@@ -1396,7 +1785,7 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-02130-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
+      }, {
         id: 75,
         series: 'SJ-P1',
         model: 'P1-02520-HFUF',
@@ -1414,8 +1803,8 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-02520-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-        }, {
-        id: 72,
+      }, {
+        id: 76,
         series: 'SJ-P1',
         model: 'P1-03160-HFUF',
         imageURL: 'img/SJp1web.png',
@@ -1432,62 +1821,171 @@ angular.module('starter.services', [])
         easysq: true,
         url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-03160-HFUF',
         features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
-      }];
-
-  return {
-    filteredProducts: catalog,
-    all: function() {
-      return catalog;
-    },
-    remove: function(catalog) {
-      catalog.splice(catalog.indexOf(catalog), 1);
-    },
-    get: function(catalogId) {
-      for (var i = 0; i < catalog.length; i++) {
-        if (catalog[i].id === parseInt(catalogId)) {
-          return catalog[i];
-        }
+      }, {
+        id: 77,
+        series: 'SJ-P1',
+        model: 'P1-03720-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 150,
+        hp: 210,
+        hpdisplay: '210',
+        amp: 310,
+        ampVt: 341,
+        ampVLD: 372,
+        volts: 400,
+        phase: 3,
+        phasedisplay: 'Three Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-03720-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      }, {
+        id: 78,
+        series: 'SJ-P1',
+        model: 'P1-04320-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 150,
+        hp: 250,
+        hpdisplay: '250',
+        amp: 370,
+        ampVt: 395,
+        ampVLD: 432,
+        volts: 400,
+        phase: 3,
+        phasedisplay: 'Three Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-04320-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      }, {
+        id: 79,
+        series: 'SJ-P1',
+        model: 'P1-04860-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 150,
+        hp: 265,
+        hpdisplay: '265',
+        amp: 405,
+        ampVt: 446,
+        ampVLD: 486,
+        volts: 400,
+        phase: 3,
+        phasedisplay: 'Three Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-04860-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      }, {
+        id: 80,
+        series: 'SJ-P1',
+        model: 'P1-05200-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 150,
+        hp: 300,
+        hpdisplay: '300/350',
+        amp: 450,
+        ampVt: 481,
+        ampVLD: 520,
+        volts: 400,
+        phase: 3,
+        phasedisplay: 'Three Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-05200-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      }, {
+        id: 81,
+        series: 'SJ-P1',
+        model: 'P1-05500-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 150,
+        hp: 350,
+        hpdisplay: '350/400',
+        amp: 500,
+        ampVt: 550,
+        ampVLD: null,
+        volts: 400,
+        phase: 3,
+        phasedisplay: 'Three Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-05500-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
+      }, {
+        id: 82,
+        series: 'SJ-P1',
+        model: 'P1-06600-HFUF',
+        imageURL: 'img/SJp1web.png',
+        kw: 150,
+        hp: 400,
+        hpdisplay: '400/450',
+        amp: 600,
+        ampVt: 660,
+        ampVLD: null,
+        volts: 400,
+        phase: 3,
+        phasedisplay: 'Three Phase',
+        emcfilter: true,
+        easysq: true,
+        url: 'https://i-store.hitachi.us/ISDWebStore/Shop?op=pd&item=P1-06600-HFUF',
+        features: ['Easy operation and setup by standard keypad (shown) or optional PC-based ProDriveNext software', 'Powerful high-torque performance - 200% @ 3 Hz', 'Internal DB transistor up to 22 kW (30 hp)', 'EzSQ Internal PLC-like controller', 'Position control function offers servo-like performance', 'Long-life, easy-to-maintain design', 'NEMA1-style conduit box optional', 'EMC Filter']
       }
-      return null;
-    },
+    ];
 
-    filter: function(query){
-      // series, Kw, volts, Hp, phase, sequence
-      var results = []
-      catalog.forEach(function(product){
-        
-        if (query.series && !contains(product.series, query.series)) { // product.series.indexOf(query.series.toUpperCase()) == -1){
-          return 
+    return {
+      filteredProducts: catalog,
+      all: function () {
+        return catalog;
+      },
+      remove: function (catalog) {
+        catalog.splice(catalog.indexOf(catalog), 1);
+      },
+      get: function (catalogId) {
+        for (var i = 0; i < catalog.length; i++) {
+          if (catalog[i].id === parseInt(catalogId)) {
+            return catalog[i];
+          }
         }
-        if (query.volts && parseInt(query.volts) !== product.volts) {
-          return
-        }
-        if (query.kw && parseFloat(query.kw) !== product.kw) {
-          return
-        }
-        if (query.hp && parseFloat(query.hp) !== product.hp){
-          return
-        }
+        return null;
+      },
 
-        if (query.snglphase === true && false === product.snglphase){
-          return
-        }
-        
-        if (query.threephase === true && false === product.threephase){
-          return
-        }
-        if (query.emcfilter === true && false === product.emcfilter){
-          return
-        }
-        if (query.easysq === true && false === product.easysq){
-          return
-        }
-        results.push(product)
-      })
-    return results
-    }
-  };
-});
+      filter: function (query) {
+        // series, Kw, volts, Hp, phase, sequence
+        var results = []
+        catalog.forEach(function (product) {
+
+          if (query.series && !contains(product.series, query.series)) { // product.series.indexOf(query.series.toUpperCase()) == -1){
+            return
+          }
+          if (query.volts && parseInt(query.volts) !== product.volts) {
+            return
+          }
+          if (query.kw && parseFloat(query.kw) !== product.kw) {
+            return
+          }
+          if (query.hp && parseFloat(query.hp) !== product.hp) {
+            return
+          }
+
+          if (query.snglphase === true && false === product.snglphase) {
+            return
+          }
+
+          if (query.threephase === true && false === product.threephase) {
+            return
+          }
+          if (query.emcfilter === true && false === product.emcfilter) {
+            return
+          }
+          if (query.easysq === true && false === product.easysq) {
+            return
+          }
+          results.push(product)
+        })
+        return results
+      }
+    };
+  });
 
 function contains(x, y) {
   if (x.toUpperCase().indexOf(y.toUpperCase()) != -1) {
